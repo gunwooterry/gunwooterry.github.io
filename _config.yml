@@ -54,22 +54,22 @@ exclude: [vendor]
 # repo defaults to USERNAME.github.io
 # Branch defaults to "source" for USERNAME.github.io
 # or "master" otherwise
-# safe: false
-# lsi: false
-# username: gunwooterry
-# repo: gunwooterry.github.io
-# branch: master
-# relative_source: ../
-# destination: ../pages/
-# production_url:  https://gunwooterry.github.io/
-# source_url:      https://github.com/gunwooterry/gunwooterry.github.io
-#
-# exclude:
-#   - README.md
-#   - Rakefile
-#   - Gemfile
-#   - Gemfile.lock
-#   - changelog.md
-#   - "*.Rmd"
-#   - vendor
-#   - .travis.yml
+safe: false
+lsi: false
+username: gunwooterry
+repo: gunwooterry.github.io
+branch: master
+relative_source:  ../
+destination:      ../pages/
+production_url:   https://gunwooterry.github.io/
+source_url:       https://github.com/gunwooterry/gunwooterry.github.io
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
