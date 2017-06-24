@@ -8,10 +8,11 @@ current: tag
 
 <!-- < dynamically overriding backgrounds for tags as well as descriptions -->
 {% if page.url contains 'life' %}
-  {% assign new_cover='assets/images/profile_cover.jpg' %}
-  {% assign tag_description='About my life' %}
+  {% assign new_cover='assets/images/profile-cover.jpg' %}
+  {% assign tag_description='How I am spending my 20s' %}
 {% elsif page.url contains 'cs' %}
-  {% assign tag_description='About computer science' %}
+  {% assign new_cover='assets/images/cs-cover.jpg' %}
+  {% assign tag_description='Design and build to make it work' %}
 {% endif %}
 
 <!-- < default}} -->
