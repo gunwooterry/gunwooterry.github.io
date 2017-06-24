@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Opening the blog
+title:  Hello, world!
 date:   2017-06-24 01:37:00 +0900
 tags:   life
 subclass:   'post'
