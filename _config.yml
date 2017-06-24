@@ -16,6 +16,7 @@ author: 'Gunwoo Kim'
 nickname: gunwooterry
 bio: 'Undergraduate Student at KAIST'
 location: 'Daejeon, South Korea'
+timezone: 'Asia/Seoul'
 url: 'http://gunwooterry.github.io'
 image: 'assets/images/profile.jpg'
 
@@ -27,9 +28,8 @@ baseurl: /
 
 # Permalinks
 permalink: /:title
-  # author: /author/:username
-  # tag: /tag/:tag
-
+# permalink: /author/:username
+# permalink: /tag/:tag
 
 # gems and other configs
 gems: [jekyll-paginate]
@@ -60,7 +60,7 @@ username: gunwooterry
 repo: gunwooterry.github.io
 branch: master
 relative_source:  ./
-destination:      ./pages/
+destination:      _site/
 production_url:   https://gunwooterry.github.io/
 source_url:       https://github.com/gunwooterry/gunwooterry.github.io/
 
