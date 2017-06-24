@@ -5,6 +5,7 @@
 *.orig
 
 ### Jekyll ###
+_site/
 .sass-cache/
 .jekyll-metadata
 
